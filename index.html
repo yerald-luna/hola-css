@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>hola css</title>
+	<title >hola css</title>
+	<style type="text/css">
+		body {
+		    font-family: Arial,sans-serif;
+		    font-size: 13px;
+		    background: #000 url("fondo.jpg") no-repeat;
+		}
+		h1{
+			color: red;
+		}
+		.texto.centrado{
+		    	text-align: center;
+		    }
+		    #caja1{
+		    	background: black;
+		    	color: white;
+		    	width:300px;
+		    	padding-top: 20px;
+		    	padding-right: 20px;
+		    	padding-bottom: 20px;
+		    	padding-left: 20px;
+		    	margin: 20px;
+		    	border width:3px;
+		    	border-color: red;
+		       border-style: solid;
+		       float: left;
+		       background: #000 url("imagen.jpg") no-repeat;
+
+		    }
+		    #caja2{
+		    	background: black;
+		    	color: white;
+		    	width:300px;
+		    	padding: 20px; 
+		    	border: 3px solid red;
+		    	float: left;
+		    }
+		    .clr{
+		    	clear: both;
+		    }
+		    .milista{
+		    	list-style: none;
+		    	padding: 0;
+		    	line-height: 2.2em;
+		    }
+		    li{
+		    	border-bottom: 0.5em solid black;
+		    }
+
+	</style>
 </head>
 <body>
 	<h1>hola css</h1>
 	<h2>presentacion</h2>
 
-</body>
-</html>
+	<div>
+		<h1 class="texto centrado">bienvenidos</h1>
+		<p class="texto centrado">esto es un parrafo</p>
+		<p>esto es otro parrafo</p>
+	</div>
+	<div id="caja1">
+		esta es la caja 1
+		
+	</div>     
+	<div id="caja2">
+		esta es la caja 2
+	</div>
+	<div class="clr">
+		
+	</div>
+	<ul class="milista">
+	<li>lunes</li>
+	<li>martes</li>
+	<li>miercoles</li>
+	<li>jueves</li>
+	<li>viernes</li>
+	<li>sabado</li>
+	<li>domingo</li>
+    </ul> 
+
+</body>           
+</html>   
